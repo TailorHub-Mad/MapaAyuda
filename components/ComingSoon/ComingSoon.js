@@ -20,7 +20,7 @@ const CommingSoon = props => {
         <CommingSoonStyle display={props.display}>
             <div className="green">
                 <div className="logo">
-                    <img className="iconLogo" src="/static/svg/logoMapaAyuda.svg" />
+                    <img className="iconLogo" src="/static/svg/logoMapaAyuda.svg" alt="atelier" />
                 </div>
                 <div className="textGreen">
                     <ParagraphTitle align="center">{t("csTitle")}</ParagraphTitle>
