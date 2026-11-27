@@ -49,7 +49,7 @@ const Nav = props => {
                                     <ParagraphHeader size="16px"color="#76991E">{t("text")}</ParagraphHeader>
                                     <Link href=""><ParagraphHeader size="16px" color="#76991E" >{t("nav6")}</ParagraphHeader></Link>
                                 </div>
-                                <img src="/static/svg/logoMapaAyuda.svg" />
+                                <img src="/static/svg/logoMapaAyuda.svg" alt="atelier" />
                             </div>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ const Nav = props => {
 
             <header className="desktop">
                 <div className="logo">
-                    <Link href="/index"><img src="/static/svg/logoMapaAyuda.svg" /></Link>
+                    <Link href="/index"><img src="/static/svg/logoMapaAyuda.svg" alt="atelier" /></Link>
                 </div>
                 <nav>
                     <Link href="/"><ParagraphBody >{t("nav1")}</ParagraphBody></Link>
